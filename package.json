@@ -1,0 +1,32 @@
+{
+  "name": "helloapp",
+  "version": "1.0.0",
+  "description": "First Angular 7 Project",
+  "author": "Eugene Popov <metanit.com>",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --open",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@angular/common": "~7.2.4",
+    "@angular/compiler": "~7.2.4",
+    "@angular/core": "~7.2.4",
+    "@angular/forms": "~7.2.4",
+    "@angular/platform-browser": "~7.2.4",
+    "@angular/platform-browser-dynamic": "~7.2.4",
+    "@angular/router": "~7.2.4",
+    "core-js": "^2.6.3",
+    "rxjs": "^6.4.0",
+    "zone.js": "^0.8.29"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.21",
+    "typescript": "^3.3.1",
+    "webpack": "^4.29.1",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14",
+    "angular2-template-loader": "^0.6.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "uglifyjs-webpack-plugin": "^2.1.1"
+  }
+}

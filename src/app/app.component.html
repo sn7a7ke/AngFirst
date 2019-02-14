@@ -1,0 +1,26 @@
+<child-comp></child-comp>
+
+
+<br/>
+<childPlusMinus-comp (onChanged)="onChanged($event)"></childPlusMinus-comp>
+<h2>Количество кликов: {{clicks}}</h2>
+
+
+<br/>
+<childDoubleBinding-comp [(userName)]="name"></childDoubleBinding-comp>
+<div>Выбранное имя: {{name}}</div>
+
+
+<br/>
+<p *while="condition">
+    Первый параграф
+</p>
+<p *while="!condition">
+    Второй параграф
+</p>
+<button (click)="toggle()">Toggle</button>
+
+
+<data-comp></data-comp>
+<br/>
+<data-comp></data-comp>
