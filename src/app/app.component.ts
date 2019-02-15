@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';  //, OnInit
-
+import { Component } from '@angular/core'; 
 @Component({
     selector: 'purchase-app',
     templateUrl: './src/app/app.component.html'    
