@@ -6,6 +6,7 @@ import { ChildComponent }   from './child.component';
 import { ChildPlusMinusComponent }   from './childPlusMinus.component';
 import { ChildDoubleBindingComponent }   from './childDoubleBinding.component';
 
+//import { Categories } from './categories';
 import { DataComponent }   from './data.component';
 
 import { PurchaseService } from './purchase.service'; //
@@ -21,6 +22,7 @@ import { WhileDirective} from './while.directive';
                     ChildComponent, 
                     ChildPlusMinusComponent, 
                     ChildDoubleBindingComponent,
+                    //Categories,
                     DataComponent,
                     BoldDirective,
                     WhileDirective],
